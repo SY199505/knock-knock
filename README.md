@@ -14,3 +14,10 @@ iframe 缺点
 	})`
 
 可继承属性 font-size font-family color
+css3新特性
+	选择器 :not 
+	border-radius
+	text-shadow
+	text-decoration
+	transform
+	flexbox:采用flex布局的元素，称为flex容器（flex container），所有子元素自动成为容器成员，称为flex项目
