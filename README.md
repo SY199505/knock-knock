@@ -6,3 +6,10 @@ iframe 缺点
 	解决方法：动态添加iframe的src属性
 浏览器多个标签通信
 	websocket、sharedworker、localstorge
+页面可见性（page visibility API）
+	document.visibilityState 的检测值 visible hidden prerender unload
+	监控visibilitychange
+	`document.addEventListener("visibilitychange", function() {
+		console.log(document.visibilityState);
+	})`
+	
