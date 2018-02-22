@@ -21,3 +21,11 @@ css3新特性
 	text-decoration
 	transform
 	flexbox:采用flex布局的元素，称为flex容器（flex container），所有子元素自动成为容器成员，称为flex项目
+兼容
+	获取属性getAttribute()
+	chrome 中文界面将小于12px文本以12px显示，-webkit-text-size-adjust: none;
+	L-V-H-A : a:link{} a:visited{} a:hover{} a:active{}
+	初始化css样式，保证浏览器显示一致
+BFC 
+	独立的布局环境，BFC中的元素的布局不受外界的影响
+	浮动和绝对定位的元素以及overflow不为visible的块级盒子	
