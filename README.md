@@ -12,4 +12,5 @@ iframe 缺点
 	`document.addEventListener("visibilitychange", function() {
 		console.log(document.visibilityState);
 	})`
-	
+
+可继承属性 font-size font-family color
