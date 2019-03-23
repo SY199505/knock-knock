@@ -1,0 +1,30 @@
+1、
+let name = 'window'
+function fn () {
+    console.log(this.name);
+}
+let obj = {
+    name: 'obj',
+    fn: fn
+}
+fn();
+obj.fn();
+let fn2 = obj.fn; fn2();
+2、
+try { 
+    console.log(1);
+    setTimeout(() => {
+        console.log(2);
+    }, 100);
+    setTimeout(()=>{
+        console.log(3);
+        throw new Error(5);
+    });
+    console.log(4); 
+} catch (e) {
+    console.log(e);
+}
+3、
+4、
+5、
+6、
